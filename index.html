@@ -1,24 +1,90 @@
 
 <html>
 <head>
+<title>GitHub Sign in Form</title>
 <style>
+
 div {
-  border: 1px solid red;
-width: 200px;
-
+  border: 1px;
+  padding: 15px;
+  width: 400px;
+  border-radius: 8px;
+  font-family: arial;
+}
+.button {
+  background-color: #4CAF60; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
-p.ex1 {
-  margin-left: inherit;
-
+a {
+  text-decoration: none;
 }
+
 </style>
 </head>
+
 <body>
+
+<dl>
+  <dt><h1><a href="https://www.w3schools.com/html/html_forms.asp" target="_blank">Form:</a></h1></dt>
+  <dd>An HTML form is used to collect user input. The user input is most often sent to a server for processing.</dd>
+</dl>
+<hr>
+<br> 
+
 <center>
-<div>
-<p class="ex1">This paragraph has an inherited left margin (from the div element).</p>
+  <div>
+    <img src="https://logos-download.com/wp-content/uploads/2016/09/GitHub_logo.png" style=width:42px;height:42px;><br><br>
+    <p font-family="arial";><h1>Sign in to GitHub</h1></p>
+
+<div style="width:350px; background-color:rgba(240, 247, 251, 0.5); border-width:1px; border-style:solid; border-color:lightgray; padding: 5px;">
+    <p><form action="/action_page.php">
+    <label for="fname" style="float: left; padding: 5px; text-indent: 22px;">Username or email address</label><br>
+    <input type="text" id="fname" name="fname" value="" style="border-radius: 5px; width: 85%;"></p>
+    <p><label for="lname" style="float: left; padding: 5px; text-indent: 22px;">Password: <a class="label-link position-absolute top-0 right-0" tabindex="0" href="/password_reset"><small>Forgot password?</small></a></label><br>
+    <input type="text" id="lname" name="lname" value="" style="border-radius: 5px; width: 85%;"></p>
+    <p><input type="submit" value="Submit" class="button" style="width: 85%; padding: 5px; border-radius: 8px;"></p>
+    </form></p>
 </div>
+<br>
+  <div style="width:350px; border-width:1px; border-style:solid; border-color:lightgray; padding: 5px;">
+    <p>New to GitHub? <a href="https://github.com/signup">Create an account.</a></p>
+  </div>
+
+  </div>
+
+<br>
+<br>
+
+  <div>
+  <p>
+  <small>
+<a href="https://docs.github.com/en/site-policy/github-terms/github-terms-of-service">Terms</a>
+<a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement">Privacy</a>
+<a href="https://github.com/security">Security</a>
+<a href="https://support.github.com/?tags=dotcom-direct" style=color:gray;>Contact GitHub</a>
+  </small>
+  </p>
+  </div>
 </center>
+
+
+<br>
+<br>
+<h2>Instructor:</h2>
+<p>Othneil Uter</p>
+
+<h2>About Me:</h2>
+
+<h3>Name:</h3>
+<p>Amirhossein Olyaei</p>
+<a href="https://www.linkedin.com/in/amirhossein-olyaei-4785403a/" target="_blank">LinkedIn</a>
+
 </body>
 </html>
